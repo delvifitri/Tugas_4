@@ -37,9 +37,10 @@
                 />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/image_edit"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
+                android:onClick="handleImageEdit"
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
                 app:layout_constraintEnd_toEndOf="@+id/image_profile"
                 app:srcCompat="@drawable/edit_icon"
@@ -185,6 +186,7 @@
         android:background="@drawable/btn_red_large"
         android:text="@android:string/ok"
         android:textColor="@android:color/white"
+        android:onClick="handleOk"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
